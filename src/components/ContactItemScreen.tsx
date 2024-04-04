@@ -1,9 +1,13 @@
+import {NavigationProp, useNavigation} from '@react-navigation/native';
 import {useMutation, useQueryClient} from '@tanstack/react-query';
 import axios from 'axios';
 import React, {memo, useState} from 'react';
-import {ActivityIndicator, Text, TouchableOpacity, View} from 'react-native';
+import {ActivityIndicator, TouchableOpacity} from 'react-native';
 import FastImage from 'react-native-fast-image';
+import {StackParamList} from '../navigation/StackParamList';
 import DeleteIcon from '../shared/assets/svg/DeleteIcon';
+import Text from '../shared/components/Text';
+import View from '../shared/components/View';
 import {Contact, baseUrl} from '../slices/contactSlice';
 
 type Props = {
@@ -11,6 +15,7 @@ type Props = {
 };
 
 function ContactItemScreen({item}: Props) {
+  const {navigate} = useNavigation<NavigationProp<StackParamList>>();
   const [isDisableTouch, setIsDisableTouch] = useState(false);
 
   const queryClient = useQueryClient();
@@ -31,6 +36,7 @@ function ContactItemScreen({item}: Props) {
   return (
     <TouchableOpacity
       disabled={isDisableTouch}
+      onPress={() => navigate('ContactDetailScreen', {contactId: item.id})}
       className="flex-row items-center justify-between mb-4">
       <View className="flex-row items-center">
         <FastImage
@@ -39,10 +45,10 @@ function ContactItemScreen({item}: Props) {
         />
         <View className="flex-1 flex-row items-center border-b border-gray-300 pb-3">
           <View className="flex-1">
-            <Text className="font-bold text-black">
+            <Text className="font-bold">
               {item.firstName} {item.lastName}
             </Text>
-            <Text className={'text-black'}>{item.age} Years</Text>
+            <Text>{item.age} Years</Text>
           </View>
           <View className="p-2 w-8 h-8 items-center justify-center">
             {isPending ? (
