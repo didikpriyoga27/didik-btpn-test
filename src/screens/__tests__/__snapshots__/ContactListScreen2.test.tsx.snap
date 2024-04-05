@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@screens/ContactListScreen isEmpty snapshot: component 1`] = `
+<View
+  style={
+    [
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+        },
+        [
+          {
+            "zIndex": 10,
+          },
+          {
+            "width": "100%",
+          },
+          {
+            "justifyContent": "flex-end",
+          },
+          {
+            "elevation": 4,
+            "height": 48,
+            "marginTop": -0,
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "paddingLeft": 24,
+              "paddingRight": 24,
+            },
+            {
+              "height": 48,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "position": "absolute",
+              },
+              {
+                "left": 0,
+              },
+              {
+                "right": 0,
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              {
+                "textAlign": "center",
+              },
+              {
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+            ],
+          ]
+        }
+      >
+        Contact List
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={<RefreshControlMock />}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "backgroundColor": "#fff",
+        },
+        {
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <RCTRefreshControl />
+    <View />
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "bottom": 32,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 16,
+      }
+    }
+    testID="ButtonAddNewContact"
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          [
+            {
+              "backgroundColor": "#0f766e",
+            },
+            {
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+            },
+            {
+              "borderBottomLeftRadius": 9999,
+              "borderBottomRightRadius": 9999,
+              "borderTopLeftRadius": 9999,
+              "borderTopRightRadius": 9999,
+            },
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+          ],
+        ]
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={25}
+        bbWidth={24}
+        fill="none"
+        focusable={false}
+        height={25}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "flex": 0,
+              "height": 25,
+              "width": 24,
+            },
+          ]
+        }
+        width={24}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M11 11.5v-6h2v6h6v2h-6v6h-2v-6H5v-2h6Z"
+            fill={
+              {
+                "payload": 4294967295,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "fill",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "color": "#fff",
+              },
+              {
+                "fontWeight": "600",
+              },
+            ],
+          ]
+        }
+      >
+        Add New Contact
+      </Text>
+    </View>
+  </View>
+</View>
+`;

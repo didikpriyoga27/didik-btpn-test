@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@shared/components/Header when header is null snapshot: component 1`] = `null`;
+
+exports[`@shared/components/Header when header is rendered but no title snapshot: component 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      [
+        {
+          "zIndex": 10,
+        },
+        {
+          "width": "100%",
+        },
+        {
+          "justifyContent": "flex-end",
+        },
+        {
+          "elevation": 4,
+          "height": 80,
+          "marginTop": -0,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+        },
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "paddingLeft": 24,
+            "paddingRight": 24,
+          },
+          {
+            "height": 80,
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#fff",
+          "marginLeft": -8,
+          "opacity": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={24}
+        bbWidth={24}
+        color="black"
+        fill="none"
+        focusable={false}
+        height={24}
+        style={
+          [
+            {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            {
+              "flex": 0,
+              "height": 24,
+              "width": 24,
+            },
+          ]
+        }
+        tintColor="black"
+        width={24}
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M2 12h20M2 12l6-6M2 12l6 6"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            propList={
+              [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+              ]
+            }
+            stroke={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            strokeLinecap={1}
+            strokeWidth={2}
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;

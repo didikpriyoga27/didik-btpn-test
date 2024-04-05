@@ -130,6 +130,7 @@ export default function ContactDetailScreen() {
         />
         <Text className="px-4 mt-4 font-bold">First Name:</Text>
         <TextInput
+          testID="TextInputFirstName"
           className="border border-gray-300 px-4 mx-4 rounded-md text-black dark:text-white"
           value={firstName}
           onChangeText={setFirstName}
@@ -137,6 +138,7 @@ export default function ContactDetailScreen() {
         />
         <Text className="px-4 mt-4 font-bold">Last Name:</Text>
         <TextInput
+          testID="TextInputLastName"
           className="border border-gray-300 px-4 mx-4 rounded-md text-black dark:text-white"
           value={lastName}
           onChangeText={setLastName}
@@ -144,6 +146,7 @@ export default function ContactDetailScreen() {
         />
         <Text className="px-4 mt-4 font-bold">Age:</Text>
         <TextInput
+          testID="TextInputAge"
           className="border border-gray-300 px-4 mx-4 rounded-md text-black dark:text-white"
           value={age}
           onChangeText={setAge}
@@ -152,6 +155,7 @@ export default function ContactDetailScreen() {
         />
       </ScrollView>
       <TouchableOpacity
+        testID={'ButtonSave'}
         className="bg-teal-700 m-4 rounded-md h-12 justify-center"
         disabled={!firstName || !lastName || !age}
         onPress={handleSave}>

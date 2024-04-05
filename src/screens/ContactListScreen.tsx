@@ -8,7 +8,7 @@ import {
   RefreshControl,
   TouchableOpacity,
 } from 'react-native';
-import ContactItemScreen from '../components/ContactItemScreen';
+import ContactItem from '../components/ContactItem';
 import {StackParamList} from '../navigation/StackParamList';
 import PlusIcon from '../shared/assets/svg/PlusIcon';
 import BaseLayout from '../shared/components/BaseLayout';
@@ -54,7 +54,7 @@ const ContactListScreen = () => {
   }, [contacts]);
 
   const renderItem = useCallback((props: {item: Contact}) => {
-    return <ContactItemScreen {...props} />;
+    return <ContactItem {...props} />;
   }, []);
 
   if (isLoading) {
@@ -77,6 +77,7 @@ const ContactListScreen = () => {
         renderItem={renderItem}
       />
       <TouchableOpacity
+        testID={'ButtonAddNewContact'}
         onPress={() => navigate('ContactDetailScreen', {contactId: ''})}
         className={'absolute bottom-8 right-4'}>
         <View className="bg-teal-700 p-4 rounded-full flex-row items-center">

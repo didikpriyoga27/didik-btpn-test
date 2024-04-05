@@ -14,7 +14,7 @@ type Props = {
   item: Contact;
 };
 
-function ContactItemScreen({item}: Props) {
+function ContactItem({item}: Props) {
   const {navigate} = useNavigation<NavigationProp<StackParamList>>();
   const [isDisableTouch, setIsDisableTouch] = useState(false);
 
@@ -35,6 +35,7 @@ function ContactItemScreen({item}: Props) {
 
   return (
     <TouchableOpacity
+      testID={'ButtonContactDetail'}
       disabled={isDisableTouch}
       onPress={() => navigate('ContactDetailScreen', {contactId: item.id})}
       className="flex-row items-center justify-between mb-4">
@@ -54,7 +55,9 @@ function ContactItemScreen({item}: Props) {
             {isPending ? (
               <ActivityIndicator size="large" color={'#b91c1c'} />
             ) : (
-              <TouchableOpacity onPress={handleDeleteContact}>
+              <TouchableOpacity
+                testID={'ButtonDeleteContact'}
+                onPress={handleDeleteContact}>
                 <DeleteIcon />
               </TouchableOpacity>
             )}
@@ -65,4 +68,4 @@ function ContactItemScreen({item}: Props) {
   );
 }
 
-export default memo(ContactItemScreen);
+export default memo(ContactItem);

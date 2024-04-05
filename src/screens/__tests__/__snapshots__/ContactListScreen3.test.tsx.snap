@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@screens/ContactListScreen isLoading snapshot: component 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+>
+  <ActivityIndicator
+    size="large"
+  />
+</View>
+`;

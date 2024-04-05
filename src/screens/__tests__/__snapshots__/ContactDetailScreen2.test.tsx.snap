@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@screens/ContactDetailScreen isEmpty snapshot: component 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+        },
+        [
+          {
+            "zIndex": 10,
+          },
+          {
+            "width": "100%",
+          },
+          {
+            "justifyContent": "flex-end",
+          },
+          {
+            "elevation": 4,
+            "height": 48,
+            "marginTop": -0,
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "paddingLeft": 24,
+              "paddingRight": 24,
+            },
+            {
+              "height": 48,
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "position": "absolute",
+              },
+              {
+                "left": 0,
+              },
+              {
+                "right": 0,
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              {
+                "textAlign": "center",
+              },
+              {
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+            ],
+          ]
+        }
+      >
+        Contact Detail
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "marginLeft": -8,
+            "opacity": 1,
+            "paddingBottom": 8,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 8,
+          }
+        }
+      >
+        <RNSVGSvgView
+          bbHeight={24}
+          bbWidth={24}
+          color="black"
+          fill="none"
+          focusable={false}
+          height={24}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 24,
+                "width": 24,
+              },
+            ]
+          }
+          tintColor="black"
+          width={24}
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M2 12h20M2 12l6-6M2 12l6 6"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              propList={
+                [
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                ]
+              }
+              stroke={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              strokeLinecap={1}
+              strokeWidth={2}
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    keyboardShouldPersistTaps="handled"
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "overflow": "hidden",
+            },
+            [
+              {
+                "width": 96,
+              },
+              {
+                "height": 96,
+              },
+              {
+                "marginRight": 16,
+              },
+              {
+                "borderBottomLeftRadius": 9999,
+                "borderBottomRightRadius": 9999,
+                "borderTopLeftRadius": 9999,
+                "borderTopRightRadius": 9999,
+              },
+              {
+                "backgroundColor": "#d1d5db",
+              },
+              {
+                "alignSelf": "center",
+              },
+              {
+                "marginTop": 16,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          defaultSource={null}
+          resizeMode="cover"
+          style={
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              {
+                "marginTop": 16,
+              },
+              {
+                "fontWeight": "700",
+              },
+            ],
+          ]
+        }
+      >
+        First Name:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter First Name"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "borderBottomColor": "#d1d5db",
+              "borderLeftColor": "#d1d5db",
+              "borderRightColor": "#d1d5db",
+              "borderTopColor": "#d1d5db",
+            },
+            {
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            },
+            {
+              "marginLeft": 16,
+              "marginRight": 16,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            {
+              "color": "#000",
+            },
+          ]
+        }
+        testID="TextInputFirstName"
+      />
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              {
+                "marginTop": 16,
+              },
+              {
+                "fontWeight": "700",
+              },
+            ],
+          ]
+        }
+      >
+        Last Name:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter Last Name"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "borderBottomColor": "#d1d5db",
+              "borderLeftColor": "#d1d5db",
+              "borderRightColor": "#d1d5db",
+              "borderTopColor": "#d1d5db",
+            },
+            {
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            },
+            {
+              "marginLeft": 16,
+              "marginRight": 16,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            {
+              "color": "#000",
+            },
+          ]
+        }
+        testID="TextInputLastName"
+      />
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "paddingLeft": 16,
+                "paddingRight": 16,
+              },
+              {
+                "marginTop": 16,
+              },
+              {
+                "fontWeight": "700",
+              },
+            ],
+          ]
+        }
+      >
+        Age:
+      </Text>
+      <TextInput
+        keyboardType="numeric"
+        onChangeText={[Function]}
+        placeholder="Enter Age"
+        style={
+          [
+            {
+              "borderBottomWidth": 1,
+              "borderLeftWidth": 1,
+              "borderRightWidth": 1,
+              "borderTopWidth": 1,
+            },
+            {
+              "borderBottomColor": "#d1d5db",
+              "borderLeftColor": "#d1d5db",
+              "borderRightColor": "#d1d5db",
+              "borderTopColor": "#d1d5db",
+            },
+            {
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            },
+            {
+              "marginLeft": 16,
+              "marginRight": 16,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            {
+              "color": "#000",
+            },
+          ]
+        }
+        testID="TextInputAge"
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "#0f766e",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+        "height": 48,
+        "justifyContent": "center",
+        "marginBottom": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 16,
+        "opacity": 1,
+      }
+    }
+    testID="ButtonSave"
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#fff",
+          },
+          [
+            {
+              "backgroundColor": "transparent",
+            },
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000",
+            },
+            [
+              {
+                "color": "#fff",
+              },
+              {
+                "textAlign": "center",
+              },
+              {
+                "fontWeight": "700",
+              },
+              {
+                "fontSize": 18,
+                "lineHeight": 28,
+              },
+            ],
+          ]
+        }
+      >
+        Save
+      </Text>
+    </View>
+  </View>
+</View>
+`;
